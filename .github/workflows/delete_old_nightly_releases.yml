@@ -2,6 +2,7 @@ name: 'Remove old nightly pre-releases from GitHub'
 on:
   schedule:
     - cron: '0 2 * * *'
+  workflow_dispatch:
     
 jobs:
   delete-old-nightly-releases:
