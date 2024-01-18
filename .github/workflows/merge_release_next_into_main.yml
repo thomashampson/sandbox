@@ -20,8 +20,7 @@ jobs:
     - name: Merge Release-next into Main
       if: (github.event_name == 'pull_request' && github.event.action == 'closed' && github.event.pull_request.merged == true) || github.event_name == 'workflow_dispatch'
       run: |
-        git config user.name "GitHub Actions"
-        git config user.email "actions@github.com"
+        git fetch origin
         git checkout main
         git pull origin main
         git merge --no-ff origin/release-next
