@@ -1,0 +1,28 @@
+# This is a basic workflow to help you get started with Actions
+name: merge release next into main
+
+on:
+  pull_request:
+    types: closed
+    branches:
+      - release-next 
+
+  workflow_dispatch:
+
+jobs:
+  merge_release_next_into_main:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v2
+
+    - name: Merge Release-next into Main
+      if: (github.event_name == 'pull_request' && github.event.action == 'closed' && github.event.pull_request.merged == true) || github.event_name == 'workflow_dispatch'
+      run: |
+        git checkout main
+        git pull origin main
+        git merge --no-ff origin/release-next
+        git push origin main
+    
+    
