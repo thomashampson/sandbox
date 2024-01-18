@@ -25,7 +25,7 @@ jobs:
         git fetch origin
         git checkout main
         git pull origin main
-        git merge --no-ff origin/release-next
+        git merge origin/release-next
         git push origin main
     
     
