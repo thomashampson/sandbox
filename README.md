@@ -23,3 +23,5 @@ jujghghj
 blblfbl
 
 this text sghould appear on ornl-next and main
+
+this text should appear on main, and not release-next
