@@ -5,3 +5,5 @@ test whether linking issue in PR targeting release-next willc lose the issue wit
 try the above again
 
 try AGAIN
+
+Jonathan's changes to the readme
