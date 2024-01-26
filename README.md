@@ -1,27 +1,3 @@
 # sandbox
 
-for testing things...
-test
-test
-tesing github actions
-
-text added on release-next
-
-text added on test branch
-
-text added on release next
-
-test test
-
-hello
-erttreert
-
-fghhfg
-jujghghj
-
-
-blblfbl
-
-this text sghould appear on ornl-next and main
-
-this text should appear on main, and not release-next
+test whether linking issue in PR targeting release-next willc lose the issue with the mjolnir action.
