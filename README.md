@@ -19,3 +19,5 @@ check whether issue 23 is closed by a PR targeting release-next using a link in 
 check whether issue 25 is closed by a PR targeting main using a link in the Fixes comment - try again, made a mistake with issue number
 
 check whether issue 29 is closed by a PR targeting main where there is a full stop after issue number.
+
+check whether issue 31 is closed when "Fixes #31abc" is in the comment of a PR targeting main.
