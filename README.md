@@ -9,3 +9,5 @@ try AGAIN
 Jonathan's 2nd change to the readme
 
 testing
+
+testing whether github action closes issue with full stop after issue name
