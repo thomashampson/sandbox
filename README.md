@@ -12,5 +12,5 @@ testing
 
 testing whether github action closes issue with full stop after issue name - it didn't close the issue
 
-now testing whether it works without a full stop
+now testing whether it works without a full stop - try again, made a mistake
 
