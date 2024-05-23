@@ -10,4 +10,7 @@ Jonathan's 2nd change to the readme
 
 testing
 
-testing whether github action closes issue with full stop after issue name
+testing whether github action closes issue with full stop after issue name - it didn't close the issue
+
+now testing whether it works without a full stop
+
