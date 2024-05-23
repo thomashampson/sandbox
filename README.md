@@ -14,4 +14,6 @@ testing whether github action closes issue with full stop after issue name - it 
 
 now testing whether it works without a full stop - try again, made a mistake
 
-check whether issue 23 is closed by a PR targetting release-next using a link in the Fixes comment
+check whether issue 23 is closed by a PR targeting release-next using a link in the Fixes comment
+
+check whether issue 24 is closed by a PR targeting main using a link in the Fixes comment
