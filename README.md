@@ -23,3 +23,5 @@ check whether issue 29 is closed by a PR targeting main where there is a full st
 check whether issue 31 is closed when "Fixes #31abc" is in the comment of a PR targeting main.
 
 test full stops after issues with new version of mjolnir
+
+test more full stops
